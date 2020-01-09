@@ -1,15 +1,32 @@
+@import url("https://fonts.googleapis.com/css?family=Crimson+Text|Dosis|Passion+One&display=swap");
+
 @tailwind base;
 
+@font-face {
+  font-family: "Crimson Text", serif;
+  font-family: "Dosis", sans-serif;
+  font-family: "Passion One", cursive;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-sans;
+}
+
 h1 {
-  @apply text-2xl;
+  @apply text-3xl;
 }
 
 h2 {
-  @apply text-xl;
+  @apply text-2xl;
 }
 
 h3 {
-  @apply text-lg;
+  @apply text-xl;
 }
 
 a {
@@ -17,11 +34,11 @@ a {
 }
 
 p {
-  @apply mb-2;
+  @apply mb-2 font-body text-lg;
 }
 
 .heroText {
-  @apply text-6xl;
+  @apply text-6xl font-display;
 }
 
 @tailwind components;

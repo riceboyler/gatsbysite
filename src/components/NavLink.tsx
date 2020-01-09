@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "gatsby";
 
 interface Props {
   href: string;
@@ -7,12 +8,12 @@ interface Props {
 
 const NavLink: React.FC<Props> = ({ href, children }) => {
   return (
-    <a
-      href={href}
+    <Link
+      to={href}
       className="block mt-8 text-gray-200 hover:text-blue-400 hover:underline no-underline"
     >
       {children}
-    </a>
+    </Link>
   );
 };
 
