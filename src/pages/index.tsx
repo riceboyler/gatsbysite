@@ -8,8 +8,8 @@ function Index(): ReactElement {
       <div className="w-36 mr-2">
         <Header isMenuOpen={isMenuOpen} setMenuOpen={setMenuOpen} />
       </div>
-      <div className="w-full p-10">
-        <div className="bg-white mx-auto flex flex-col justify-center align-middle shadow-lg min-h-full p-10">
+      <div className="w-full p-2 md:p-10">
+        <div className="bg-white mx-auto flex flex-col justify-center align-middle shadow-lg min-h-full p-2 md:p-10">
           <h1 className="heroText">
             riceboyler <span className="text-lg">/'raɪsbɔɪlər/</span>
           </h1>
