@@ -4,7 +4,7 @@ import Layout from "../components/Layout";
 function Index(): ReactElement {
   return (
     <Layout>
-      <div className="self-center w-1/2 bg-yellow-100 shadow-xl rounded p-4 md:p-10 mb-6">
+      <div className="self-center w-1/2 md:w-3/4 bg-yellow-100 shadow-xl rounded p-4 md:p-10 mb-6">
         <h1 className="heroText">
           riceboyler <span className="text-lg">/'raɪsbɔɪlər/</span>
         </h1>
